@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teoria css</title>
+    <style>
+button {
+    background-color: red;
+}
+button:hover {
+    background-color: blue;
+    font-size: 18px;
+}
+
+p {
+    color: blue;
+}
+p::before {
+    content: "👍x";
+    color: green;
+}
+p::after {
+    content:"😎";
+    font-size: 28px;
+}
+
+article {
+    background-color: aqua;
+}
+article h2 {
+    color: orange;
+}
+article strong {
+    color: chocolate;
+}
+h1, h3, em {
+    border: 5px salmon;
+}
+body {
+    color: orange;
+}
+button {
+    color: inherit;
+}
+a {
+    color: inherit;
+}
+
+header {
+    color: violet;
+}
+#cabecera {
+    color: blue;
+}
+
+.texto {
+    color: red;
+}
+
+h2 {
+    color: hotpink;
+
+}
+    </style>
+</head>
+<body>
+    <button>click aqui</button>
+    
+    <p>texto especial</p>
+    <article>
+        <h2>bienvenido</h2>
+        <strong>hola a todos</strong>
+    </article>
+    <section>
+        <h1>titulo</h1>
+        <h2>subtitulo</h2>
+        <h3>otro sub</h3>
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel rerum expedita sint ullam dolore quo dignissimos enim voluptatum omnis. Sit quaerat est esse neque repellendus asperiores quas voluptatibus tenetur.</strong>
+
+        <em>texto con enfasis</em>
+        <a href="">soy un link</a>
+    </section>
+    <header id="cabecera" class="texto">
+        ¿de que color soy?
+    </header>
+</body>
+</html>
